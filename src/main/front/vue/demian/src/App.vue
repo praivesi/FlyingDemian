@@ -1,17 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="col-3">
+              <a class="nav-link active" aria-current="page" href="/think">Think</a>
+            </li>
+            <li class="col-3">
+              <a class="nav-link active" aria-current="page" href="/want">Want</a>
+            </li>
+            <li class="col-3">
+              <a class="nav-link active" aria-current="page" href="/wish">Wish</a>
+            </li>
+            <li class="col-3">
+              <a class="nav-link active" aria-current="page" href="/loadmap">LoadMap</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <router-view class="main-content"></router-view>
+  </div>
 </template>
-
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import request from "request";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: {},
   mounted() {
     request(
       "http://localhost:8082/api/hello",
@@ -24,7 +41,6 @@ export default {
   },
 };
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -32,6 +48,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.main-content {
+  margin: 10px;
+}
+
+.menu-btn {
+  margin: 10px;
 }
 </style>
