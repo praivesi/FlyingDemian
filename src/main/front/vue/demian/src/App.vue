@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="menus" class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -20,7 +20,7 @@
         </div>
       </div>
     </nav>
-    <router-view class="main-content"></router-view>
+    <router-view></router-view>
   </div>
 </template>
 <script>
@@ -50,11 +50,9 @@ export default {
   color: #2c3e50;
 }
 
-.main-content {
-  margin: 10px;
-}
-
-.menu-btn {
-  margin: 10px;
+#menus {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 </style>
