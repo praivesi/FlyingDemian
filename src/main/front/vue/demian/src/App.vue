@@ -4,16 +4,16 @@
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="col-3">
+            <li>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li>
               <a class="nav-link active" aria-current="page" href="/think">Think</a>
             </li>
-            <li class="col-3">
+            <li>
               <a class="nav-link active" aria-current="page" href="/want">Want</a>
             </li>
-            <li class="col-3">
-              <a class="nav-link active" aria-current="page" href="/wish">Wish</a>
-            </li>
-            <li class="col-3">
+            <li>
               <a class="nav-link active" aria-current="page" href="/loadmap">LoadMap</a>
             </li>
           </ul>
