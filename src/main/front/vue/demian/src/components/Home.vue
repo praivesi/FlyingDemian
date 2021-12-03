@@ -1,5 +1,5 @@
 <template>
-  <h4>Home Page</h4>
+<p class="custom-header">Home</p>
 </template>
 
 <script>

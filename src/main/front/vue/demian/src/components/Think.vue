@@ -1,256 +1,135 @@
 <template>
-  <div id="think-page" class="bg-info">
-    <nav
-      id="think-nav"
-      class="navbar navbar-light bg-light flex-column align-items-stretch p-3"
-    >
-      <a class="navbar-brand" href="#">Thinks</a>
-      <nav class="nav nav-pills flex-column">
-        <a class="nav-link" href="#item-1">Item 1</a>
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-          <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
-        </nav>
-        <a class="nav-link" href="#item-2">Item 2</a>
-        <a class="nav-link" href="#item-3">Item 3</a>
-        <nav class="nav nav-pills flex-column">
-          <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-          <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
-        </nav>
-      </nav>
-    </nav>
-    <div
-      id="think-content"
-      class="bg-success"
-      data-bs-spy="scroll"
-      data-bs-target="#think-nav"
-      data-bs-offset="0"
-      tabindex="0"
-    >
-      <h4 id="item-1">Item 1</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <h5 id="item-1-1">Item 1-1</h5>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <h5 id="item-1-2">Item 1-2</h5>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <h4 id="item-2">Item 2</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <h4 id="item-3">Item 3</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <h5 id="item-3-1">Item 3-1</h5>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <h5 id="item-3-2">Item 3-2</h5>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        fuga? Sed eligendi, ipsum ullam, ducimus illo doloremque natus nemo
-        quaerat culpa quam nobis accusamus fugiat hic reiciendis a qui suscipit.
-      </p>
+  <div id="think-page">
+  <p class="custom-header">Think</p>
+    <div id="title-box" class="box border-lightskyblue center-text mb-3">
+      Title
     </div>
-    <div style="display: none; clear: both"></div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Main Goal
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is
+            shown by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Goal 1
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Goal 2
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Goal 3
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -259,21 +138,31 @@ export default {};
 </script>
 
 <style>
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.border-lightskyblue {
+  border: 1px solid lightskyblue;
+}
+
 #think-page {
   margin: 0;
   height: 100%;
 }
 
-#think-nav {
-  float: left;
-  width: 15%;
-  height: 100vh;
-  position: fixed;
-  opacity: 0.5;
+#title-box {
+  height: 100px;
 }
 
-#think-content {
-  width: 85%;
-  float: right;
+#descript-box {
+  height: 300px;
 }
 </style>

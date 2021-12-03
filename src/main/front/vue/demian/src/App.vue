@@ -20,7 +20,7 @@
         </div>
       </div>
     </nav>
-    <router-view></router-view>
+    <router-view id="app-main-content"></router-view>
   </div>
 </template>
 <script>
@@ -51,8 +51,11 @@ export default {
 }
 
 #menus {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+#app-main-content {
+  padding: 20px;
 }
 </style>
